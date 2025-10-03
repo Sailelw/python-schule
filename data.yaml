@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['faces']
+
+roboflow:
+  workspace: univeral-ai
+  project: faces-nsc3b
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/univeral-ai/faces-nsc3b/dataset/1
